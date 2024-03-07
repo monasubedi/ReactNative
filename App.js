@@ -1,10 +1,11 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import Greeting from './Greeting';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Welcome to CI/CD example</Text>
+      <Greeting />
       <StatusBar style="auto" />
     </View>
   );
