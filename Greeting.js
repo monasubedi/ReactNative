@@ -5,7 +5,7 @@ const Greeting = () => {
     return (
         <View>
             <TextInput value='Mona Subedi' />
-            <Text>Welcome to CI/CD example</Text>
+            <Text>Welcome to CI/CD for React Native example</Text>
         </View>
 
     )
